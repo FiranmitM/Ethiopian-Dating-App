@@ -92,7 +92,7 @@ module.exports = function (app, pool, bcrypt, transporter) {
 						<p>To fully access the world of Matcha and find the one that was meant for you,
 						you just need to confirm your account with a single click. Yes, it's that easy!</p>
 						<a href="http://localhost:3000/confirm/${username}/${code}">Click here to start finding perfect Matches!</a>
-						<p>Love, Matcha Mail</p>`
+						<p>Love, EDA Mail</p>`
 				};
 
 				transporter.sendMail(mailOptions, function (error, info) {

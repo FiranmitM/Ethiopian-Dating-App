@@ -7,8 +7,8 @@ import Notification from '../Notification'
 import { Button, Paper, TextField, Typography } from "@mui/material";
 import { Container } from '@mui/system';
 import { createTheme } from '@mui/material/styles'
-import { ReactComponent as HeartIcon } from '../../images/matcha_icon_with_heart.svg'
 import profileService from "../../services/profileService"
+import heartIcon from '../../images/matcha_icon_with_heart.png'
 
 const theme = createTheme({
 	palette: {
@@ -65,7 +65,7 @@ const ChangePassword = () => {
 	return (
 		<Container maxWidth='sm' sx={{ pt: 5, pb: 5 }}>
 			<Paper elevation={10} sx={{ padding: 3 }}>
-				<HeartIcon style={imageStyle} />
+				<img src={heartIcon} alt="Heart Icon" style={imageStyle} />
 				<Typography variant='h5' align='center'
 					sx={{ fontWeight: 550 }}>Change password</Typography>
 				<Typography align='center'>Please confirm your old password to make a new one.</Typography>

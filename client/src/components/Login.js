@@ -10,7 +10,6 @@ import { getUserNotifications } from '../reducers/userNotificationsReducer'
 import { Typography, Button, Paper, TextField } from '@mui/material'
 import { Container } from '@mui/system';
 import { createTheme } from '@mui/material/styles'
-import { ReactComponent as HeartIcon } from '../images/matcha_icon_with_heart.svg'
 import Notification from './Notification'
 
 const Login = ({ socket }) => {
@@ -68,7 +67,7 @@ const Login = ({ socket }) => {
 	return (
 		<Container maxWidth='sm' sx={{ pt: 5, pb: 5 }}>
 			<Paper elevation={10} sx={{ padding: 3 }}>
-				<HeartIcon style={imageStyle} />
+				<img src="/images/matcha_icon_with_heart.svg.png" alt="Heart Icon" style={imageStyle} />
 				<Typography variant='h5' align='center'
 					sx={{ fontWeight: 550 }}>Login</Typography>
 				<Typography align='center' xs={{ mb: 4 }}>Login and start dating now!</Typography>

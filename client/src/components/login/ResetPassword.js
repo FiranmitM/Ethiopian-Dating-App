@@ -7,7 +7,6 @@ import { createTheme } from '@mui/material/styles'
 import { IconMailForward } from '@tabler/icons'
 import Notification from '../Notification'
 import { changeNotification } from '../../reducers/notificationReducer'
-import { ReactComponent as HeartIcon } from '../../images/matcha_icon_with_heart.svg'
 import { changeSeverity } from '../../reducers/severityReducer'
 
 const imageStyle = {
@@ -60,7 +59,7 @@ export const SetNewPassword = () => {
 		<>
 			<Container maxWidth='sm' sx={{ pt: 5, pb: 5 }}>
 				<Paper elevation={10} sx={{ padding: 3 }}>
-					<HeartIcon style={imageStyle} />
+					<img src="/images/matcha_icon_with_heart.svg.png" alt="Heart Icon" style={imageStyle} />
 					<Typography variant='h5' align='center'
 						sx={{ fontWeight: 550 }}>Set new password</Typography>
 					<Typography align='center'>Enter a new secure password for your account.</Typography>
@@ -77,7 +76,6 @@ export const SetNewPassword = () => {
 		</>
 	)
 }
-
 
 const ResetPasswordForm = () => {
 	const dispatch = useDispatch()
