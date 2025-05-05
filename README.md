@@ -1,6 +1,4 @@
-# Matcha - Dating Site
-<img height='100px' src="https://raw.githubusercontent.com/erikpeik/Matcha/master/client/src/images/matcha_logo.svg" />
-[
+
 The goal of the project is:](https://github.com/FiranmitM)
 
 - to create a dating site from scratch using Node.js, Express, React, Redux, and PostgreSQL. The site works in real time, meaning that any updates happen instantly without the need to refresh the page.
