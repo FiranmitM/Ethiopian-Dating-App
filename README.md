@@ -1,12 +1,7 @@
 # Matcha - Dating Site
 <img height='100px' src="https://raw.githubusercontent.com/erikpeik/Matcha/master/client/src/images/matcha_logo.svg" />
-
-## 💼 Made by [SeanTroy](https://github.com/SeanTroy) and [erikpeik](https://github.com/erikpeik)
-
-### Matcha is a dating site where you can find your soulmate
-## 🎯 Projects goal:
-It's a project for the Web branch of the 42 school curriculum.
-The goal of the project is:
+[
+The goal of the project is:](https://github.com/FiranmitM)
 
 - to create a dating site from scratch using Node.js, Express, React, Redux, and PostgreSQL. The site works in real time, meaning that any updates happen instantly without the need to refresh the page.
 - to learn the use of micro-frameworks and ability to build a web application that can be used by a large number of users.
