@@ -137,3 +137,5 @@ Notifications are received for the following events:
 Notifications are transmitted via SocketIO, and also saved to the database, from where they are retrieved to Redux store every time the user logs in. When a new notification is dispatched to Redux, that updates the Notification menu icon instantly with the number of unread notifications.
 
 Clicking on the notifications forwards the user to the other user’s profile page, or to their chat room, depending on the notification type. At the bottom of the window, user has the option to delete all the notifications or set them all read.
+"# Ethiopian-Dating-App" 
+"# Ethiopian-Dating-App" 
